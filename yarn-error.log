@@ -1,0 +1,59 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.19.2/libexec/bin/yarn.js
+
+PATH: 
+  /Users/FeryalShoaib/.npm-global/bin:/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/2.6.0/bin:/anaconda3/condabin:/Users/FeryalShoaib/Documents/Jobs:Internships/React Native/food/cmake-2.8.12.2-Darwin64-universal/CMake 2.8-12.app/Contents/bin:/Users/FeryalShoaib/.rvm/gems/ruby-2.6.3/bin:/Users/FeryalShoaib/.rvm/gems/ruby-2.6.3@global/bin:/Users/FeryalShoaib/.rvm/rubies/ruby-2.6.3/bin:/Applications/CMake.app/Contents/bin:/Users/FeryalShoaib/anaconda2/bin:/Users/FeryalShoaib/anaconda2/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin:/Users/FeryalShoaib/.rvm/bin:.
+
+Yarn version: 
+  1.19.2
+
+Node version: 
+  12.18.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz: Request failed "500 Internal Server Error"
+      at ResponseError.ExtendableBuiltin (/usr/local/Cellar/yarn/1.19.2/libexec/lib/cli.js:696:66)
+      at new ResponseError (/usr/local/Cellar/yarn/1.19.2/libexec/lib/cli.js:802:124)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.19.2/libexec/lib/cli.js:66997:16)
+      at Request.emit (events.js:315:20)
+      at Request.module.exports.Request.onRequestResponse (/usr/local/Cellar/yarn/1.19.2/libexec/lib/cli.js:141463:10)
+      at ClientRequest.emit (events.js:315:20)
+      at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:596:27)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:119:17)
+      at TLSSocket.socketOnData (_http_client.js:469:22)
+      at TLSSocket.emit (events.js:315:20)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "^38.0.8",
+      "expo-status-bar": "^1.0.2",
+      "react": "~16.11.0",
+      "react-dom": "~16.11.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
+      "react-native-web": "~0.11.7",
+      "watchman": "^1.0.0"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.8.6",
+      "babel-preset-expo": "~8.1.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
